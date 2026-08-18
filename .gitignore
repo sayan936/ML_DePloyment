@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.venv/
+.env
+.env.*
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and generated artifacts
+*.log
+logs/
+logs/**
+Artifacts/
+Artifacts/**
+artifacts/
+artifacts/**
+final_model/
+prediction_output/
+
+# Local data / uploads
+*.csv
+!Network_Data/phisingData.csv
+!valid_data/test.csv
